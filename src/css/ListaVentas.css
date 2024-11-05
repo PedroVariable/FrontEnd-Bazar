@@ -1,0 +1,59 @@
+.sales-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.sales-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.sales-card {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.sales-card:hover {
+    transform: scale(1.02);
+}
+
+.sales-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+
+.sales-info {
+    flex: 1;
+}
+
+.sales-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.sales-price {
+    font-size: 1rem;
+    color: #666;
+}
+
+.sales-date {
+    font-size: 0.9rem;
+    color: #aaa;
+}

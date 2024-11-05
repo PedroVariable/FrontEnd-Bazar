@@ -1,0 +1,133 @@
+
+.busqueda-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.search-bar {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.busqueda-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+.busqueda-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;
+    padding: 10px;
+}
+
+.carousel-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.carousel-info h4, .product-info h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center; 
+}
+.carousel-container h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center; 
+    
+}
+
+
+.products-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 15px;
+    justify-items: center; 
+    width: 100%;
+}
+
+
+.product-card {
+    width: 140px; 
+    height: 220px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.discount-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff4d4f; 
+    color: #fff;
+    padding: 3px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+
+.product-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-top: 15px;
+}
+
+.product-info {
+    text-align: center;
+    padding: 10px;
+}
+
+.product-info h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.product-info p {
+    font-size: 12px;
+    margin: 2px 0;
+}

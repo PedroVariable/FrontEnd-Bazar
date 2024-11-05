@@ -1,0 +1,86 @@
+
+.lp-container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.lp-card-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.lp-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease;
+}
+
+.lp-card:hover {
+    transform: scale(1.05);
+}
+
+.lp-card-link {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+.lp-card-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.lp-card-content {
+    padding: 10px;
+}
+
+.lp-card-title {
+    font-size: 1.4em;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.lp-card-description {
+    font-size: 0.9em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.lp-card-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ff5722;
+    margin: 5px 0;
+}
+
+.lp-card-rating {
+    font-size: 0.9em;
+    color: #4caf50;
+    margin: 3px 0;
+}
+
+.lp-card-availability {
+    font-size: 0.9em;
+    color: #777;
+    margin: 3px 0;
+    font-weight: bold;
+}
